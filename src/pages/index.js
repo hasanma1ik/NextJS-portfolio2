@@ -216,25 +216,22 @@ export default function Home() {
                  </div>
                 </div>
                 </div>
+                                
+      <div className="image1">
+    <img src="./images/33.jpg" alt="Hunza Valley, Northern Areas Pakistan" className="w-650 h-900" />
+    <div className="text-gray-800 mt-2 dark:text-white">Hunza Valley, Northern Areas Pakistan</div>
+  </div>
 
-                
+  <div className="image2">
+    <img src="./images/00.jpg" alt="Gooseberry Falls State Park, Minnesota, USA" className="w-800 h-600" />
+    <div className="text-gray-800 mt-2 dark:text-white">Gooseberry Falls State Park, Minnesota, USA</div>
+  </div>
 
-                
-                <div className="image1">
-                <Image src="/images/33.jpg" alt=""  width="650" height="900" />
-                <div className="text-gray-800 mt-2 dark:text-white">Hunza Valley, Northern Areas Pakistan</div>
-                </div>
-                <div className="image2">
-                <Image src="/images/00.jpg" alt="" width="800" height="600" />
-                <div className="text-gray-800 mt-2 dark:text-white">Gooseberry Falls State Park, Minnesota, USA</div>
-                </div>
-
-                <div className="image3">
-                <Image src="/images/44.jpg" alt="" width="550" height="750" />
-                <div className="text-gray-800 mt-2 dark:text-white">Mukhspuri Peak, Northern Areas Pakistan</div>
-                </div>
-               
-                </section>
+  <div className="image3">
+    <img src="./images/44.jpg" alt="Mukhspuri Peak, Northern Areas Pakistan" className="w-550 h-750" />
+    <div className="text-gray-800 mt-2 dark:text-white">Mukhspuri Peak, Northern Areas Pakistan</div>
+  </div>
+</section>
       </main>
     </div>
 
