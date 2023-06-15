@@ -1,6 +1,6 @@
-const basePath = process.env.NODE_ENV === 'production' ? '/NextJS-portfolio2' : '';
-
-module.exports = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-  basePath: basePath,
-};
+}
+
+module.exports = nextConfig
