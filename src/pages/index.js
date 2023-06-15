@@ -90,7 +90,7 @@ export default function Home() {
 
             ...
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 ">
-              <img src="/11.jpeg" alt="Image description" />
+              <img src="/images/11.jpeg" alt="Image description" />
             </div>
             ... </div>
             
@@ -221,16 +221,16 @@ export default function Home() {
 
                 
                 <div className="image1">
-                <Image src="/33.jpg" alt=""  width="650" height="900" />
+                <Image src="/images/33.jpg" alt=""  width="650" height="900" />
                 <div className="text-gray-800 mt-2 dark:text-white">Hunza Valley, Northern Areas Pakistan</div>
                 </div>
                 <div className="image2">
-                <Image src="/00.jpg" alt="" width="800" height="600" />
+                <Image src="/images/00.jpg" alt="" width="800" height="600" />
                 <div className="text-gray-800 mt-2 dark:text-white">Gooseberry Falls State Park, Minnesota, USA</div>
                 </div>
 
                 <div className="image3">
-                <Image src="/44.jpg" alt="" width="550" height="750" />
+                <Image src="/images/44.jpg" alt="" width="550" height="750" />
                 <div className="text-gray-800 mt-2 dark:text-white">Mukhspuri Peak, Northern Areas Pakistan</div>
                 </div>
                
