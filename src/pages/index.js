@@ -90,7 +90,7 @@ export default function Home() {
 
             ...
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96 ">
-              <img src="/images/11.jpeg" alt="Image description" />
+              <img src="./images/11.jpeg" alt="Image description" />
             </div>
             ... </div>
             
