@@ -14,9 +14,6 @@ const myLoader = ({ src, width, quality }) => {
 
 
 
-
-
-
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
   return (
@@ -216,7 +213,6 @@ export default function Home() {
                  </div>
                 </div>
                 </div>
-
                 
 
                 
