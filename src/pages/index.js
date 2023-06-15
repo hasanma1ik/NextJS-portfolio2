@@ -221,16 +221,16 @@ export default function Home() {
 
                 
                 <div className="image1">
-                <Image src="/33.jpg" alt=""  width="650" height="900" />
+                <Image src="/33.jpg" alt=""  width="650" height="900" unoptimized={true} />
                 <div className="text-gray-800 mt-2 dark:text-white">Hunza Valley, Northern Areas Pakistan</div>
                 </div>
                 <div className="image2">
-                <Image src="/00.jpg" alt="" width="800" height="600" />
+                <Image src="/00.jpg" alt="" width="800" height="600" unoptimized={true} />
                 <div className="text-gray-800 mt-2 dark:text-white">Gooseberry Falls State Park, Minnesota, USA</div>
                 </div>
 
                 <div className="image3">
-                <Image src="/44.jpg" alt="" width="550" height="750" />
+                <Image src="/44.jpg" alt="" width="550" height="750" unoptimized={true} />
                 <div className="text-gray-800 mt-2 dark:text-white">Mukhspuri Peak, Northern Areas Pakistan</div>
                 </div>
                
