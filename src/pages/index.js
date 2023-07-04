@@ -1,25 +1,26 @@
 import Head from "next/head";
-import { BsFillMoonStarsFill } from 'react-icons/bs';
+import { BsFillCloudSunFill } from 'react-icons/bs';
 import {
   AiFillInstagram,
   AiFillLinkedin,
-  AiFillFacebook
+  AiFillGithub
 } from 'react-icons/ai'
 import { useState } from "react";
 import Image from 'next/legacy/image';
+
+
+
 
 const myLoader = ({ src, width, quality }) => {
   return `http://localhost:3000//${src}?w=${width}&q=${quality || 75}`;
 };
 
 
-
-
-
-
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+ 
+  const [darkMode, setDarkMode] = useState(true);
   return (
+    
     <div className={darkMode ? 'dark' : ""}>
       <Head>
         <title>Hasan M Malik Portfolio</title>
@@ -57,11 +58,11 @@ export default function Home() {
   </div>
             <ul className="flex items-center">
               <li>
-                <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)}
+                <BsFillCloudSunFill onClick={() => setDarkMode(!darkMode)}
                   className="cursor-pointer text-2xl" />
               </li>
               <li>
-                <a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8" href="https://docs.google.com/document/d/1-JjwCS9BN7afON_-no7VV9-9ocn9D51NQRGci40zwTQ/edit">Resume</a>
+                <a className="bg-gradient-to-r from-rose-600 to-indigo-600 text-white px-4 py-2 rounded-md ml-8" href="https://docs.google.com/document/d/1-JjwCS9BN7afON_-no7VV9-9ocn9D51NQRGci40zwTQ/edit">Resume</a>
               </li>
             </ul>
           </nav>
@@ -81,8 +82,8 @@ export default function Home() {
   <a href="https://www.linkedin.com/in/hasan-malik-109386118/" target="_blank" rel="noopener noreferrer">
     <AiFillLinkedin />
   </a>
-  <a href="https://www.facebook.com/malikhasankhan/" target="_blank" rel="noopener noreferrer">
-    <AiFillFacebook />
+  <a href="https://github.com/hasanma1ik/" target="_blank" rel="noopener noreferrer">
+    <AiFillGithub />
   </a>
 </div>
 </div>
@@ -93,6 +94,7 @@ export default function Home() {
               <img src="./images/11.jpeg" alt="Image description" />
             </div>
             ... </div>
+            
             
             
         </section>
