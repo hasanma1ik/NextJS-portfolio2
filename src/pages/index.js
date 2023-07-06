@@ -53,8 +53,12 @@ export default function Home() {
       <section id="Home" className="min-h-screen">
         <nav className="py-10 mb-12 flex justify-between dark:text-white">
   <div className="flex items-center">
-    
-    <h1 className="text-xl font-burtons"><b> HM<sup className="text-sm bottom-0 right-0">2</sup></b></h1>
+  <div className="flex items-center transform hover:scale-110 transition-transform duration-300">
+  <h1 className="text-xl font-burtons text-white-700 hover:text-red-600">
+    <b>HM<sup className="text-sm bottom-0 right-0">2</sup></b>
+  </h1>
+</div>
+
   </div>
             <ul className="flex items-center">
               <li>
