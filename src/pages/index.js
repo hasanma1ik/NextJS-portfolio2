@@ -66,7 +66,7 @@ export default function Home() {
                   className="cursor-pointer text-2xl" />
               </li>
               <li>
-                <a className="bg-gradient-to-r from-rose-600 to-indigo-600 text-white px-4 py-2 rounded-md ml-8" href="https://docs.google.com/document/d/1-JjwCS9BN7afON_-no7VV9-9ocn9D51NQRGci40zwTQ/edit">Resume</a>
+                <a className="bg-gradient-to-r from-rose-600 to-indigo-600 text-white px-4 py-2 rounded-md ml-8" href="https://docs.google.com/document/d/1zdN3DRm5mHhF6e9Iz7Fveh2gBl4rc_jC9Oi5Ng01vk4/edit">Resume</a>
               </li>
             </ul>
           </nav>
